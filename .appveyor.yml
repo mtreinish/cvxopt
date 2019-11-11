@@ -20,6 +20,8 @@ environment:
     SUITESPARSE_SHA256: "90e69713d8c454da5a95a839aea5d97d8d03d00cc1f667c4bdfca03f640f963d"
 
   matrix:
+    - PYTHON_VERSION: 3.8
+      CVXOPT_MSVC: 1
     - PYTHON_VERSION: 3.7
       CVXOPT_MSVC: 1
     - PYTHON_VERSION: 3.6
